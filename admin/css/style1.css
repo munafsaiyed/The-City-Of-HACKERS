@@ -1,0 +1,43 @@
+	.button{
+	background-color:red;
+	border: none;
+	color: silver;
+	padding: 15px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
+	.button1{
+		box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0 rgba(0,0,0,0);       
+	}
+	.button1:hover{
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);       
+	}
+
+	/*------------------Input text------------*/
+	
+	.text{
+width:50%;
+padding:12px 20px;
+margin: 8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+-webkit-transition:0.3s;
+transition:0.3s;
+outline:none;
+}
+.text:focus{
+border:6px solid red;
+}
+.div{
+border-radius: 5px;
+background: silver;
+padding: 20px
+}
